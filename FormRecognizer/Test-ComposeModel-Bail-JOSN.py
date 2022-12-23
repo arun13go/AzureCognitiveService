@@ -6,6 +6,7 @@ To learn more, please visit the documentation - Quickstart: Form Recognizer Pyth
 https://docs.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/quickstarts/try-v3-python-sdk
 """
 
+
 import json
 import sys
 from pygments import highlight, lexers, formatters
