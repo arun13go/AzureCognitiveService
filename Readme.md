@@ -1,6 +1,6 @@
 ## Overview
 
-Azure Form Recognizer  https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-composed-models?view=form-recog-3.0.0 is a cloud-based Azure Applied AI Service for developers to build intelligent document processing solutions. Form Recognizer applies machine-learning-based optical character recognition (OCR) and document understanding technologies to extract text, tables, structure, and key-value pairs from documents. 
+[Azure Form Recognizer] (https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-composed-models?view=form-recog-3.0.0) is a cloud-based Azure Applied AI Service for developers to build intelligent document processing solutions. Form Recognizer applies machine-learning-based optical character recognition (OCR) and document understanding technologies to extract text, tables, structure, and key-value pairs from documents. 
 
 Azure Form Recognizer enable to create Composed models. A composed model is created by taking a collection of custom models and assigning them to a single model built from your form types. When a document is submitted for analysis using a composed model, the service performs a classification to decide which custom model best represents the submitted document.
 
