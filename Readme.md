@@ -8,13 +8,9 @@ Sample code in this repo to provide an idea on how to use API Endpoint to access
 
 There are 3 code sample avialable:
 
-- Use REST API in python custom code to call compose model and get JSON as payload response
-- Use REST API in python custom code to call compose model and get entities as key value pair
-- Use REST API in python custom code to call compose model and get entities as table structure as is like source document
-
-- Test-ComposeModel-JSON.py     -> JSON response
-- Test-ComposeModel-KeyValue.py -> key value pair
-- Test-ComposeModel-Table.py    -> table structure
+- Use REST API in python custom code to call compose model and get JSON as payload response -> Test-ComposeModel-JSON.py
+- Use REST API in python custom code to call compose model and get entities as key value pair -> Test-ComposeModel-KeyValue.py
+- Use REST API in python custom code to call compose model and get entities as table structure as is like source document -> Test-ComposeModel-Table.py
 
 Sample redacted document from one of the use case where multiple custom model built and compose model used to process the doc
 
