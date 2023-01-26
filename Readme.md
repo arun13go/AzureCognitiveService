@@ -17,6 +17,10 @@ Sample redacted document from one of the use case where multiple custom model bu
 ## Prerequsite
 Above sample code requires:
 - Valid Azure subscription and access to Azure Form Recognizer
+- Local environement set up:
+    - VS code with envi settup or can use another IDE with Python3.1.1
+    - azure-cli-core==2.42.0
+    - azure-ai-formrecognizer==3.2.0
 - Custom model should be built using sample docs
 - Compose model should be built using custom model
 - Azure Form Recognizer model end point url, key, Model name (Change the code to point the model)
