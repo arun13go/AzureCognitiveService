@@ -14,13 +14,16 @@ Remember to remove the key from your code when you're done, and never post it pu
 secure methods to store and access your credentials. For more information, see 
 https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-security?tabs=command-line%2Ccsharp#environment-variables-and-application-configuration
 """
-endpoint = "https://capitaformrecogdemo.cognitiveservices.azure.com/"
-key = "f0d07a3dbf3c41719b57756e5f7d1e80"
+#--endpoint = "https://capitaformrecogdemo.cognitiveservices.azure.com/"
+#--key = "f0d07a3dbf3c41719b57756e5f7d1e80"
+
+endpoint = "https://capitaformrecog.cognitiveservices.azure.com/"
+key = "04d1e71c4dee46cd8266502bad097aa1"
 
 # ********************* Use the ELMONB doc ***************************
-model_id = "ComposeBailELMONBModel"
+model_id = "Compose-Bail-ELM-Model"
 #model_id = "ELMONBModel"
-formUrl = "https://docforcomposemodel.blob.core.windows.net/composedoc/test-doc/ELMONB - em_hearing_date_missing-Testing.pdf"
+formUrl = "https://demodoccontainer.blob.core.windows.net/test-docs/ELMONB%20-%20em_hearing_date_missing-Testing.pdf"
 print("********************* ELMONB doc ***************************")
 
 
