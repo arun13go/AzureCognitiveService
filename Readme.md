@@ -12,9 +12,9 @@ There are 3 code sample avialable:
 - Use REST API in python custom code to call compose model and get entities as key value pair
 - Use REST API in python custom code to call compose model and get entities as table structure as is like source document
 
-- Test-ComposeModel-Bail-JOSN   -> JSON response
-- Test-ComposeModel-Bail        -> key value pair
-- Test-ComposeModel-ELMONB      -> table structure
+- Test-ComposeModel-JSON.py     -> JSON response
+- Test-ComposeModel-KeyValue.py -> key value pair
+- Test-ComposeModel-Table.py    -> table structure
 
 Sample redacted document from one of the use case where multiple custom model built and compose model used to process the doc
 
