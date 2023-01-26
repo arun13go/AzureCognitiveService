@@ -4,7 +4,7 @@ Azure Form Recognizer is a cloud-based Azure Applied AI Service for developers t
 
 Azure Form Recognizer enable to create Composed models. A composed model is created by taking a collection of custom models and assigning them to a single model built from your form types. When a document is submitted for analysis using a composed model, the service performs a classification to decide which custom model best represents the submitted document.
 
-Sample code in this repo to provide an idea to use API Endpoint to access the Form Recognizer compose model  to extract relevent entity from the document.
+Sample code in this repo to provide an idea on how to use API Endpoint to access the Form Recognizer compose model  to extract relevent entity from the document.
 
 There are 3 code sample avialable:
 
@@ -17,3 +17,10 @@ There are 3 code sample avialable:
 - Test-ComposeModel-ELMONB      -> table structure
 
 Sample redacted document from one of the use case where multiple custom model built and compose model used to process the doc
+
+## Prerequsite
+Above sample code requires:
+- Valid Azure subscription and access to Azure Form Recognizer
+- Custom model should be built using sample docs
+- Compose model should be built using custom model
+- Azure Form Recognizer model end point url, key, Model name (Change the code to point the model)
