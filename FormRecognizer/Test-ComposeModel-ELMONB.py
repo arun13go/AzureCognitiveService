@@ -20,7 +20,8 @@ key = "YOUR END POINT KEY HERE"
 
 # ********************* Use the SAMPLE TESTING doc ***************************
 
-model_id = "Compose-Bail-ELM-Model"
+#model_id = "Compose-Bail-ELM-Model"
+model_id = "YOUR COMPOSE MODEL NAME/ID HERE"
 formUrl = "YOUR TESTING DOC (STORAGE CONTAINER) URL HERE"
 
 print("********************* ELMONB doc ***************************")
