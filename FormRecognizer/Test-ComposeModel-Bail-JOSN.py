@@ -24,9 +24,10 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-sec
 endpoint = "YOUR END POINT URL HERE"
 key = "YOUR END POINT KEY HERE"
 
-# ********************* Use the Bail doc ***************************
+# ********************* Use the SAMPLE TESTING doc ***************************
+
 model_id = "Compose-Bail-ELM-Model"
-formUrl = "YOUR TESTING DOC ADLS STORAGE CONTAINER URL HERE"
+formUrl = "YOUR TESTING DOC (STORAGE CONTAINER) URL HERE"
 
 print("********************* Bail doc ***************************")
 
