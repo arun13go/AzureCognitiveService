@@ -15,6 +15,9 @@ secure methods to store and access your credentials. For more information, see
 https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-security?tabs=command-line%2Ccsharp#environment-variables-and-application-configuration
 """
 
+# This code will call Form Recognizer Compose model and return restult as Key Value repsonse
+
+
 endpoint = "YOUR END POINT URL HERE"
 key = "YOUR END POINT KEY HERE"
 
