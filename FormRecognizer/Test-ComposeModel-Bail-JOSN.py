@@ -30,7 +30,7 @@ key = "YOUR END POINT KEY HERE"
 model_id = "YOUR COMPOSE MODEL NAME/ID HERE"
 formUrl = "YOUR TESTING DOC (STORAGE CONTAINER) URL HERE"
 
-print("********************* Bail doc ***************************")
+print("********************* Sample doc ***************************")
 
 
 document_analysis_client = DocumentAnalysisClient(
