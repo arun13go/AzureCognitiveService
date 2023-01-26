@@ -20,18 +20,14 @@ Remember to remove the key from your code when you're done, and never post it pu
 secure methods to store and access your credentials. For more information, see 
 https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-security?tabs=command-line%2Ccsharp#environment-variables-and-application-configuration
 """
-#--endpoint = "https://capitaformrecogdemo.cognitiveservices.azure.com/"
-#--key = "f0d07a3dbf3c41719b57756e5f7d1e80"
 
-endpoint = "https://capitaformrecog.cognitiveservices.azure.com/"
-key = "04d1e71c4dee46cd8266502bad097aa1"
+endpoint = "YOUR END POINT URL HERE"
+key = "YOUR END POINT KEY HERE"
 
 # ********************* Use the Bail doc ***************************
 model_id = "Compose-Bail-ELM-Model"
-formUrl = "https://demodoccontainer.blob.core.windows.net/test-docs/Bail%20206%20-%20all_tests_passing-Testing.pdf"
+formUrl = "YOUR TESTING DOC ADLS STORAGE CONTAINER URL HERE"
 
-#--model_id = "ComposeBailELMONBModel"
-#--formUrl = "https://docforcomposemodel.blob.core.windows.net/composedoc/test-doc/Bail 206 - all_tests_passing-Testing.pdf"
 print("********************* Bail doc ***************************")
 
 
@@ -55,6 +51,7 @@ with open('JSONResponseData.json', 'w') as f:
 # convert the dictionary back to the original model
 model = AnalyzeResult.from_dict(analyze_result_dict)
 print("--------------JSON Response from Model Starts---------------------")
+
 # use the model as normal
 print("Model ID: '{}'".format(model.model_id))
 print("Number of pages analyzed {}".format(len(model.pages)))
