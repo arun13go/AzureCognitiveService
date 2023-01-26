@@ -5,6 +5,7 @@ The async versions of the samples require Python 3.6 or later.
 To learn more, please visit the documentation - Quickstart: Form Recognizer Python client library SDKs
 https://docs.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/quickstarts/try-v3-python-sdk
 """
+# This code will call From Recognizer Compose model and return the result as tableur format
 
 from azure.ai.formrecognizer import DocumentAnalysisClient
 from azure.core.credentials import AzureKeyCredential
