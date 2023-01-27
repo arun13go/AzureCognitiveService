@@ -15,15 +15,16 @@ There are 3 code sample avialable:
 - Use REST API in python custom code to call compose model and get entities as table structure as is like source document 
     - Test-ComposeModel-Table.py
 
-Sample redacted document from one of the use case where multiple custom model built and compose model used to process the doc
+Use your own sample document / forms where multiple custom model to built and compose model used to process the doc. 
 
 ## Prerequsite
 Above sample code requires:
-- Valid Azure subscription and access to Azure Form Recognizer
+- Valid Azure subscription and, storage account access to Azure Form Recognizer
 - Local environement set up:
     - VS code with envi setup (requirements.txt for envi set up available here) or use another IDE with Python3.1.1 alongwith
     - azure-cli-core 2.42.0
     - azure-ai-formrecognizer 3.2.0
+- Create Azure Form Recognizer project to train model and test. You need minimum 5 doc to train
 - Custom model should be built using sample docs
 - Compose model should be built using custom model
 - Azure Form Recognizer model end point url, key, Model name (Change the code to point the model)
