@@ -4,6 +4,7 @@
 
 Azure Form Recognizer enable to create [Composed models](https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/how-to-guides/compose-custom-models?view=form-recog-3.0.0&tabs=studio). A composed model is created by taking a collection of custom models and assigning them to a single model built from your form types. When a document is submitted for analysis using a composed model, the service performs a classification to decide which custom model best represents the submitted document.
 
+Typical sample use case for business process automation 
 
 ![image](https://user-images.githubusercontent.com/96195521/216654950-1419a347-bbda-436f-8063-be205900686a.png)
 
